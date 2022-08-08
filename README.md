@@ -1,4 +1,4 @@
-# Placement_Cell_Interface
+# Placement Cell
 
 ## Description
 An Interface for the Placement cell team in an institute.
