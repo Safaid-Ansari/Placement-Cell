@@ -7,7 +7,7 @@ const db = require('./config/mongoose');
 const expressLayouts = require('express-ejs-layouts');
 
 //Express Session
-const session = require('express-session');               // used for session cookie
+const session = require('express-session');      // used for session cookie
 const MongoStore = require('connect-mongo')(session);
 
 //Import Passport, passport local strategy
