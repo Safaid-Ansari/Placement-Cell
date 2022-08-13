@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 
 
-mongoose.connect("mongodb+srv://SafaidAnsari:malikqueen@cluster0.vmqnisk.mongodb.net/PlacementCell");
+mongoose.connect("mongodb+srv://SafaidAnsari:iBcR2P7fTHF4UZBx@cluster0.vmqnisk.mongodb.net/PlacementCell");
 
 const db = mongoose.connection;
 
