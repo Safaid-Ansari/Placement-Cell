@@ -1,13 +1,17 @@
 {
   "name": "Placement-Cell",
+   "homepage":"https://{github-Safaid-Ansari}.github.io/{Placement-Cell}",
   "version": "1.0.0",
   "description": "An interface for the placement-cell to schedule the interview",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy" : "npm run build",
+    "deploy":"gh-pages -d build"
+    
   },
-  "author": "Safaid-Ansari",
+  "author": "Safaid-Ansari",  
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",

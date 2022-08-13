@@ -2,10 +2,8 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/Placement-Cell',{
-    useNewUrlParser:true,
-    useUnifiedTopology:true
-});
+
+mongoose.connect("mongodb+srv://SafaidAnsari:malikqueen@cluster0.vmqnisk.mongodb.net/PlacementCell");
 
 const db = mongoose.connection;
 
