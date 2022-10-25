@@ -7,6 +7,8 @@ An Interface for the Placement cell team in an institute.
 1. NodeJS
 2. MongoDB
 
+##Hosted Link: https://node-placement-cell.herokuapp.com/
+
 
 ## Dependencies Used 
 1. npm install express  
